@@ -238,3 +238,48 @@ footer {
     border-radius: 50%;
     margin: 10px;
 }
+.footer .cointainer{
+    display: flex;
+}
+.follow{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.follow h1{
+    font-size: 50px;
+}
+.con{
+    font-size: 30px;
+    margin: 16px 16px 16px 0px;
+    background-color: rgb(61, 58, 58);
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    color: black;
+    width: auto;
+}
+.con:hover{
+    background-color: #ff004f;
+    box-shadow: 1px 1px 50px 2px #ff004f;
+    border: 3px solid gray;
+    transform: translateY(-10px);
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+.y-name{
+    background-color: rgb(49, 47, 47);
+    margin: 10px;
+    width: 80%;
+    border: 0px solid black;
+    font-size: 20px;
+    outline: none;
+    padding: 15px;
+    border-radius: 6px;
+    }
